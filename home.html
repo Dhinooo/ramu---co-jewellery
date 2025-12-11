@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home-page</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER NAVBAR -->
+    <header>
+      <div class="navbar">
+        <!-- Logo -->
+        <div class="nav-logo">
+          <h3>RAMU-JEWELLERY</h3>
+        </div>
+
+        <!-- Search Box -->
+        <div class="nav-search">
+          <input type="text" placeholder="Search" />
+          <i class="fa fa-search"></i>
+        </div>
+
+        <!-- Icons -->
+        <div class="icons">
+          <i class="fa fa-user-o" aria-hidden="true"></i>
+
+          <i class="fa fa-heart-o" aria-hidden="true">
+            <span class="badge">0</span>
+          </i>
+
+          <i class="fa fa-shopping-bag" aria-hidden="true">
+            <span class="badge">0</span>
+          </i>
+        </div>
+      </div>
+      <!-- MAIN MENU -->
+      <nav class="main-menu">
+        <ul>
+          <li><a href="home.html">NEW IN</a></li>
+          <li><a href="product.html">NECKLACES</a></li>
+          <li><a href="about.html">EARRINGS</a></li>
+          <li><a href="#">BRACELETS</a></li>
+          <li><a href="#">RINGS</a></li>
+          <li><a href="#">COLLECTIONS</a></li>
+          <li><a href="#">GIFTING</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- BANNER IMAGE -->
+    <!-- Slides -->
+    <div class="carousel-slide fade">
+      <img src="images/slide-img1.png" alt="" />
+    </div>
+
+    <div class="carousel-slide fade">
+      <img src="images/slide-img2.png" alt="" />
+    </div>
+
+    <div class="carousel-slide fade">
+      <img src="images/slide-img3.png" alt="" />
+    </div>
+
+    <!-- Arrows -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Dots BELOW the banner -->
+    <div class="dots">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- ----------------------------------------------------------------- -->
+    <section class="category-section">
+      <h2>EVERYDAY DEMIFINE JEWELLERY</h2>
+
+      <div class="category-container">
+        <!-- 1. Necklaces -->
+        <div class="category-box">
+          <img src="images/category-img-1.jpg" alt="Necklaces" />
+          <p class="cat-title">MANGALSUTRA</p>
+        </div>
+
+        <!-- 2. Rings -->
+        <div class="category-box">
+          <img src="images/category-img-2.jpg" alt="Rings" />
+          <p class="cat-title">LAKSHMI NECKLACES</p>
+        </div>
+
+        <!-- 3. Earrings -->
+        <div class="category-box">
+          <img src="images/category-img-3.jpg" alt="Earrings" />
+          <p class="cat-title">RANI HAAR</p>
+        </div>
+
+        <!-- 4. Bracelets -->
+        <div class="category-box">
+          <img src="images/category-img-4.jpg" alt="Bracelets" />
+          <p class="cat-title">GOLDEN LINK CHARM</p>
+        </div>
+
+        <!-- 5. Mens -->
+        <div class="category-box">
+          <img src="images/category-img-5.jpg" alt="Mens" />
+          <p class="cat-title">ETERNAL HEART</p>
+        </div>
+
+        <!-- 6. Mangalsutra -->
+        <div class="category-box">
+          <img src="images/category-img-6.jpg" alt="Mangalsutra" />
+          <p class="cat-title">AURORA PEARL</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------?---------------- -->
+    <section class="top-styles">
+      <h2>TOP STYLES</h2>
+
+      <!-- PRODUCT GRID -->
+      <div class="products">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <span class="offer">BUY 1 GET 1</span>
+          <img src="images/product1.jpg.jpg" alt="" />
+          <button class="heart"><i class="fa fa-heart-o"></i></button>
+          <!-- <button class="add-btn">ADD TO BAG</button> -->
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+          <span class="offer">BUY 1 GET 1</span>
+          <img src="images/product2.jpg.jpg" alt="" />
+          <button class="heart"><i class="fa fa-heart-o"></i></button>
+          <!-- <button class="add-btn">ADD TO BAG</button> -->
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+          <span class="offer">BUY 1 GET 1</span>
+          <img src="images/product3.jpg.jpg" alt="" />
+          <button class="heart"><i class="fa fa-heart-o"></i></button>
+          <!-- <button class="add-btn">ADD TO BAG</button> -->
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+          <span class="offer">BUY 1 GET 1</span>
+          <img src="images/product4.jpg.jpg" alt="" />
+          <button class="heart"><i class="fa fa-heart-o"></i></button>
+          <!-- <button class="add-btn">ADD TO BAG</button> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------./------------------------------------ -->
+    <section class="confidence-section">
+      <h2 class="confidence-title">SHOP WITH CONFIDENCE</h2>
+
+      <div class="confidence-cards">
+        <!-- CARD 1 -->
+        <div class="card1">
+          <!-- <img src="" alt="Skin Safe Icon" class="icon" /> -->
+          <h3>SKIN SAFE</h3>
+          <p>
+            Our jewelry is hypoallergenic and skin-safe, crafted with care to
+            ensure comfort for all skin types. Enjoy beautiful, irritation-free
+            wear every day, knowing each piece is designed with your well-being
+            in mind.
+          </p>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="card1">
+          <!-- <img src="" alt="Gold Icon" class="icon" /> -->
+          <h3>18K GOLD VERMEIL</h3>
+          <p>
+            Our jewelry is crafted from premium metals like surgical steel,
+            sterling silver, and thick 18k gold plating, ensuring durability and
+            lasting shine. Experience luxury and quality with every piece,
+            designed to stand the test of time.
+          </p>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="card1">
+          <!-- <img src="" alt="Diamond Icon" class="icon" /> -->
+          <h3>AUTHENTIC DIAMONDS</h3>
+          <p>
+            Our lab-grown diamonds are SGL Certified, ensuring the highest
+            standards of quality and authenticity same like natural diamonds.
+            Each diamond undergoes rigorous testing to guarantee its brilliance
+            and ethical origins. Shine with confidence in every sparkly moment.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------. -->
+    <section class="testimonials-section">
+      <h2 class="testimonials-title">Trusted by our community</h2>
+
+      <div class="testimonials">
+        <!-- Testimonial 1 -->
+        <div class="testimonial">
+          <div class="stars">★ ★ ★ ★ ★</div>
+          <h3>Amila M.</h3>
+          <p>
+            They are soooo pretty. I always wished to have such earrings in real
+            gold, but gold is sooo expensive now. So I am glad I stumbled into
+            Palmonas. Thank you and keep up the awesome work. Love and God bless
+            you all.
+          </p>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial">
+          <div class="stars">★ ★ ★ ★ ★</div>
+          <h3>Yash K.</h3>
+          <p>
+            My experience was amazing after purchasing this product. I was
+            eagerly waiting to buy this. Price and quality is amazing, you can
+            buy it. It's giving tough competition to gold products.
+          </p>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial">
+          <div class="stars">★ ★ ★ ★ ★</div>
+          <h3>Deepali B.</h3>
+          <p>
+            It's the exact product shown in the image. Great for styling in
+            different occasions and everyday use too.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------------------------------------------------------------------------------------------- -->
+    <footer class="footer">
+      <!-- Subscribe Section -->
+      <div class="footer-subscribe">
+        <h3>Subscribe to receive exciting offers!</h3>
+
+        <div class="subscribe-box">
+          <input type="email" placeholder=" " />
+          <button><i class="fa fa-envelope"></i></button>
+        </div>
+
+        <div class="company-info">
+          <h4>RAMU & CO JEWELLERY</h4>
+          <p>
+            📍160, Big Bazaar St, Singarathope, Devathanam, Tiruchirappalli -
+            620 008, Tamil Nadu, India.
+          </p>
+        </div>
+      </div>
+
+      <!-- Footer Links -->
+      <div class="footer-links">
+        <div class="col">
+          <h4>Policy</h4>
+          <ul>
+            <li><a href="#">Shipping & Delivery Policy</a></li>
+            <li><a href="#">Return & Exchange Policy</a></li>
+            <li><a href="#">Lifetime Warranty Policy</a></li>
+            <li><a href="#">Lifetime BuyBack Policy</a></li>
+            <li><a href="#">Payment Policy</a></li>
+            <li><a href="#">Grievance Redressal Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h4>Help</h4>
+          <ul>
+            <li><a href="#">FAQ's</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Track Order</a></li>
+            <li><a href="#">Return & Exchange</a></li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h4>About Us</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Stores & Services</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- ---------------------------------------------------------------------------------------. -->
+    <!-- SOCIAL ICONS -->
+    <div class="social-icons">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-youtube-play"></i></a>
+    </div>
+
+    <!-- PAYMENT ICONS & COPYRIGHT -->
+    <div class="footer-payments">
+      <p>All Rights Reserved © Ramu & Jewellery</p>
+
+      <div class="payment-icons">
+        <img src="images/google_pay-.svg" />
+        <img src="images/master-card.jpg" />
+        <img src="images/paypal.png" />
+        <img src="images/visa.png" />
+      </div>
+
+      <span class="returns">Annual Returns 2025-26</span>
+    </div>
+
+    <!-- POPULAR SEARCHES -->
+    <div class="popular-searches">
+      <h2>Popular Searches</h2>
+
+      <div class="category">
+        <h4>For Women</h4>
+        <p>
+          Demi-Fine Jewellery | Rings For Women | Earrings For Women | Bracelet
+          For Women | Pendants For Women | Necklaces For Women
+        </p>
+      </div>
+
+      <div class="category">
+        <h4>For Men</h4>
+        <p>Rings For Men | Pendant For Men | Chain For Men</p>
+      </div>
+
+      <div class="category">
+        <h4>Mangalsutra</h4>
+        <p>Gold Mangalsutra | Diamond Mangalsutra | Infinity Mangalsutra</p>
+      </div>
+      <div class="category">
+        <h4>For Women</h4>
+        <p>
+          Demi-Fine Jewellery | Rings For Women | Earrings For Women | Bracelet
+          For Women | Pendants For Women | Necklaces For Women
+        </p>
+      </div>
+
+      <div class="category">
+        <h4>For Men</h4>
+        <p>Rings For Men | Pendant For Men | Chain For Men</p>
+      </div>
+
+      <div class="category">
+        <h4>Mangalsutra</h4>
+        <p>Gold Mangalsutra | Diamond Mangalsutra | Infinity Mangalsutra</p>
+      </div>
+      <div class="category">
+        <h4>For Women</h4>
+        <p>
+          Demi-Fine Jewellery | Rings For Women | Earrings For Women | Bracelet
+          For Women | Pendants For Women | Necklaces For Women
+        </p>
+      </div>
+
+      <div class="category">
+        <h4>For Men</h4>
+        <p>Rings For Men | Pendant For Men | Chain For Men</p>
+      </div>
+
+      <div class="category">
+        <h4>Mangalsutra</h4>
+        <p>Gold Mangalsutra | Diamond Mangalsutra | Infinity Mangalsutra</p>
+      </div>
+      <div class="category">
+        <h4>For Women</h4>
+        <p>
+          Demi-Fine Jewellery | Rings For Women | Earrings For Women | Bracelet
+          For Women | Pendants For Women | Necklaces For Women
+        </p>
+      </div>
+
+      <div class="category">
+        <h4>For Men</h4>
+        <p>Rings For Men | Pendant For Men | Chain For Men</p>
+      </div>
+
+      <div class="category">
+        <h4>Mangalsutra</h4>
+        <p>Gold Mangalsutra | Diamond Mangalsutra | Infinity Mangalsutra</p>
+      </div>
+      <div class="category">
+        <h4>For Women</h4>
+        <p>
+          Demi-Fine Jewellery | Rings For Women | Earrings For Women | Bracelet
+          For Women | Pendants For Women | Necklaces For Women
+        </p>
+      </div>
+
+      <div class="category">
+        <h4>For Men</h4>
+        <p>Rings For Men | Pendant For Men | Chain For Men</p>
+      </div>
+
+      <div class="category">
+        <h4>Mangalsutra</h4>
+        <p>Gold Mangalsutra | Diamond Mangalsutra | Infinity Mangalsutra</p>
+      </div>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------. -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
